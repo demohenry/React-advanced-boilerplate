@@ -3,7 +3,11 @@ import Document, {
 	Head,
 	Main,
 	NextScript,
+<<<<<<< HEAD
 	DocumentContext,
+=======
+	DocumentContext
+>>>>>>> 6f663fe8f59f82d14c959dc25316d522be9846ab
 } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
@@ -16,7 +20,11 @@ export default class MyDocument extends Document {
 			ctx.renderPage = () =>
 				originalRenderPage({
 					enhanceApp: (App) => (props) =>
+<<<<<<< HEAD
 						sheet.collectStyles(<App {...props} />),
+=======
+						sheet.collectStyles(<App {...props} />)
+>>>>>>> 6f663fe8f59f82d14c959dc25316d522be9846ab
 				});
 
 			const initialProps = await Document.getInitialProps(ctx);
@@ -27,7 +35,11 @@ export default class MyDocument extends Document {
 						{initialProps.styles}
 						{sheet.getStyleElement()}
 					</>
+<<<<<<< HEAD
 				),
+=======
+				)
+>>>>>>> 6f663fe8f59f82d14c959dc25316d522be9846ab
 			};
 		} finally {
 			sheet.seal();

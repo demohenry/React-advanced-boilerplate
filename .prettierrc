@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
 	"trailingComma": "es5",
+=======
+	"trailingComma": "none",
+>>>>>>> 6f663fe8f59f82d14c959dc25316d522be9846ab
 	"semi": true,
 	"singleQuote": true
 }

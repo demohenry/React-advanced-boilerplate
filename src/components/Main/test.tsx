@@ -17,7 +17,11 @@ describe('<Main />', () => {
 		const { container } = render(<Main />);
 
 		expect(container.firstChild).toHaveStyle({
+<<<<<<< HEAD
 			'background-color': '#06092b',
+=======
+			'background-color': '#06092b'
+>>>>>>> 6f663fe8f59f82d14c959dc25316d522be9846ab
 		});
 	});
 });

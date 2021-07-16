@@ -4,7 +4,11 @@ const GlobalStyles = createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     box-sizing: border-box;
+=======
+    box-sizing: border-box; 
+>>>>>>> 6f663fe8f59f82d14c959dc25316d522be9846ab
   }
 
   html {

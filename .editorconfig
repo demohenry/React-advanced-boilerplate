@@ -3,8 +3,16 @@ root = true
 
 [*]
 indent_style = tab
+<<<<<<< HEAD
 indent_size = 2
 end_of_line = lf
 charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
+=======
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+>>>>>>> 6f663fe8f59f82d14c959dc25316d522be9846ab

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import GlobalStyles from '../src/styles/global';
 
 export const decorators = [
@@ -9,19 +8,6 @@ export const decorators = [
 		</>
 	),
 ];
-=======
-
-import GloblaStyles from '../src/styles/global';
-
-export const decorators = [
-  (Story) => (
-    <>
-    <GloblaStyles />
-    <Story />
-    </>
-  )
-]
->>>>>>> 6f663fe8f59f82d14c959dc25316d522be9846ab
 
 /* export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -31,8 +17,4 @@ export const decorators = [
       date: /Date$/,
     },
   },
-<<<<<<< HEAD
 } */
-=======
-} */
->>>>>>> 6f663fe8f59f82d14c959dc25316d522be9846ab

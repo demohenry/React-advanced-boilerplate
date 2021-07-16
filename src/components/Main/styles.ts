@@ -6,10 +6,6 @@ export const Wrapper = styled.main`
 	width: 100%;
 	height: 100%;
 	padding: 3rem;
-<<<<<<< HEAD
-
-=======
->>>>>>> 6f663fe8f59f82d14c959dc25316d522be9846ab
 	display: flex;
 	flex-direction: column;
 	text-align: center;
